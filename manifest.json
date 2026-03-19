@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Export",
+  "version": "1.0",
+  "description": "Export all WhatsApp conversations to markdown",
+  "permissions": ["debugger", "activeTab", "downloads", "storage"],
+  "host_permissions": ["https://web.whatsapp.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

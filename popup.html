@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 350px; padding: 12px; font-family: system-ui; background: #111; color: #eee; }
+    button { width: 100%; padding: 10px; font-size: 14px; cursor: pointer; border: none; border-radius: 6px; margin: 4px 0; }
+    #start { background: #25D366; color: #000; font-weight: bold; }
+    #start:disabled { background: #555; color: #999; }
+    #reset { background: #c33; color: #fff; font-size: 12px; padding: 6px; }
+    #log { max-height: 300px; overflow-y: auto; font-size: 12px; font-family: monospace; margin-top: 8px; white-space: pre-wrap; }
+    .progress { background: #333; border-radius: 4px; height: 20px; margin: 8px 0; overflow: hidden; }
+    .progress-bar { background: #25D366; height: 100%; transition: width 0.3s; }
+  </style>
+</head>
+<body>
+  <h3 style="margin-top:0">WhatsApp Export</h3>
+  <button id="start">Start Export</button>
+  <button id="reset">Reset Progress</button>
+  <div class="progress"><div class="progress-bar" id="bar" style="width:0%"></div></div>
+  <div id="status">Ready. Open web.whatsapp.com first.</div>
+  <div id="log"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
