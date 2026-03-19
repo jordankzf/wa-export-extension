@@ -2,6 +2,8 @@
 
 Export all your WhatsApp Web conversations to a single markdown file.
 
+<img src="screenshot.png" alt="Extension popup" width="350">
+
 ## What it does
 
 - Scrapes every conversation from WhatsApp Web (sidebar + full message history)
