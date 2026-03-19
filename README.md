@@ -1,5 +1,9 @@
 # WhatsApp Backup Chrome Extension
 
+![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)
+![Chrome Extension](https://img.shields.io/badge/Platform-Chrome-green.svg)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
+
 Export all your WhatsApp Web conversations to a single markdown file.
 
 <img src="screenshot.png" alt="Extension popup" width="350">
@@ -71,4 +75,4 @@ If the export stops for any reason, just click **Start Export** again. It will s
 
 ## License
 
-MIT
+GPL-3.0

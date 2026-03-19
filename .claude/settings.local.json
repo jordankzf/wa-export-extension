@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.gnu.org)",
+      "Bash(curl -s https://www.gnu.org/licenses/gpl-3.0.txt)",
+      "Bash(curl -sL https://www.gnu.org/licenses/gpl-3.0.txt -o /c/Users/Jordan/Desktop/wa-export-extension/LICENSE)"
+    ]
+  }
+}
